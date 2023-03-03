@@ -1,22 +1,22 @@
 <script>
-// import MyComponent from "./components/MyComponent.vue";
+import ContentList from "./ContentList.vue";
 
 export default {
     data() {
         return {
 
         }
-    }
+    },
 
-    // components: {
-    //   MyComponent,
-    // },
+    components: {
+        ContentList
+    },
 };
 </script>
 
 <template>
     <main>
-
+        <ContentList />
     </main>
 </template>
 
