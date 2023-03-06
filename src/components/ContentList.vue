@@ -25,8 +25,11 @@ export default {
 
 <template>
     <div class="container content">
-        <div class="col" v-for="card in cards">
-            <h1>{{ card.name }}</h1>
+        <div class="row">
+            <div class="col" v-for="card in cards">
+                <img :src="card.card_images[0].image_url" alt="">
+                <h1>{{ card.name }}</h1>
+            </div>
         </div>
     </div>
 </template>
