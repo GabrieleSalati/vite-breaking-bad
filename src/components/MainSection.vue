@@ -23,6 +23,5 @@ export default {
 <style lang="scss" scoped>
 main {
     background-color: coral;
-    height: 100vh;
 }
 </style>

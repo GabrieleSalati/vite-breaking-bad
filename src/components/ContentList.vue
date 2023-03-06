@@ -27,7 +27,7 @@ export default {
     <div class="container content">
         <div class="row">
             <div class="col" v-for="card in cards">
-                <img :src="card.card_images[0].image_url" alt="">
+                <img :src="card.card_images[0].image_url" class="img-fluid" alt="">
                 <h1>{{ card.name }}</h1>
             </div>
         </div>
@@ -37,6 +37,5 @@ export default {
 <style lang="scss" scoped>
 .content {
     background-color: white;
-    height: 80vh;
 }
 </style>
